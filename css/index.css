@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h3{
+  font-weight: 400;
+}
+
+h1{
+  background-color: #009879;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.container3{
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.container{
+  min-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container2{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.busca{
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  height: 40px;
+  max-width: 100%;
+  font-weight: bold;
+  color: white;
+  background-color: #009879;
+}
+
+button{
+  letter-spacing: 0.8px;
+}
+
+button:hover{
+  background-color: #328574;
+}
+
+input {
+  border: 2px solid #009879;
+  border-radius: 3px;
+  padding: 10px;
+  height: 40px;
+
+}
+
+label {
+  padding: 5px;
+}
+
+header{
+  min-width: 700px;
+  padding: 35px 5px;
+}
+
+img{
+  width: 24px;
+}
+
+#btn-busca{
+  padding: 0 5px;
+  margin: 0;
+}
+
+button img {
+  display: grid;
+  place-items: center;
+}
+
+.input-btn{
+  display: flex;
+  gap: 5px;
+}
+.input-btn button{
+  display: grid;
+  place-items: center;
+  width: 50px;
+}
+.consultas{
+  min-width: 700px;
+}
+
+.btns button{
+  width: 100px;
+  text-align: center;
+}
+
+tr th:last-of-type{
+  text-align:center;
+}
+
+td .btns{
+  text-align: center;
+}
+.table-consulta{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 700px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-consulta thead tr{
+  background-color: #009879;
+  color: white;
+  text-align: left;
+}
+
+.table-consulta th, 
+.table-consulta td {
+  padding: 12px 15px;
+}
+
+.table-consulta tbody tr{
+border-bottom: 1px solid #dddddd;
+}
+
+.table-consulta tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+  }
+
+  .table-consulta tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.msg{
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}

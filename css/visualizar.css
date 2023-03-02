@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+}
+
+h1{
+  color: #009879;
+  
+}
+
+.dados{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  color: white;
+  background-color: #009879;
+}
+
+
+p {
+  width: 500px;
+  background-color: #009879;
+  color: white;
+  padding: 12px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  word-break: break-all;
+}
+
+.dados p:last-of-type{
+  border-bottom: 2px solid #009879;
+}
+
+.dado{
+  background: white;
+  color: black;
+}
+
+.info{
+  display: flex;
+  gap: 10px;
+}
+
+.descricao p{
+  width: 1010px;
+  border-radius: 5px;
+  
+}
+
+.descricao p:last-of-type{
+  /* border-left: 2px solid #009879;
+  border-right: 2px solid #009879;
+  border-radius: 0; */
+  height: 200px;
+}
+
+header{
+  width: 1010px;
+  padding-top: 35px;
+}
+
+h1::after{
+  white-space: pre;
+  content: '';
+  width: 380px;
+  display: block;
+  border: 1px solid white;
+  border-radius: 5px;
+
+}
+
+h1{
+  background-color: #009879;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+}
+
+button{
+  letter-spacing: 0.8px;
+}
+
+
+
+
